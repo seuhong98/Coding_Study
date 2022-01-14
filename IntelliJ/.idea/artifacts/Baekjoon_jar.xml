@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Baekjoon:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Baekjoon_jar</output-path>
+    <root id="archive" name="Baekjoon.jar">
+      <element id="module-output" name="Baekjoon" />
+    </root>
+  </artifact>
+</component>
