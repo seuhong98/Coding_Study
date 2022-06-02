@@ -4,7 +4,9 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println(11/2);
+        String temp  = "apple@@banana@@jafasdf";
+        String[] ttt = temp.split("@@");
+        System.out.println(Arrays.toString(ttt));
     }
 
 
