@@ -1,8 +1,5 @@
 package Programming_Contest.SCPC2021.N2;
 
-
-
-
 import java.util.Scanner;
 
 public class Solution {

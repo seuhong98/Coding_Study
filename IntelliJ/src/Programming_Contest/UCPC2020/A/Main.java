@@ -1,4 +1,4 @@
-package Practice.UCPC2020.A;
+package Programming_Contest.UCPC2020.A;
 
 import java.util.Scanner;
 

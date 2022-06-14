@@ -1,4 +1,4 @@
-package Practice.UCPC2020.H;
+package Programming_Contest.UCPC2020.H;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
