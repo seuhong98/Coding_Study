@@ -3,5 +3,5 @@
 **/.DS_Store
 .DS_Store
 IntelliJ/.DS_Store
-out/*
+IntelliJ/out/
 .idea/*
