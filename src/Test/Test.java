@@ -8,17 +8,10 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        long a = Long.parseLong(br.readLine());
-        long b = Long.parseLong(br.readLine());
-        try{
-            long c= Math.multiplyExact(a,b);
-        }catch (ArithmeticException e){
-            System.out.println("err");
-        }
-
-        long c= a*b;
-        System.out.println(a*b);
+        Stack<Integer> save = new Stack<>();
+        save.push(1);
+        save.pop();
+        System.out.println(save.empty());
     }
 
 
