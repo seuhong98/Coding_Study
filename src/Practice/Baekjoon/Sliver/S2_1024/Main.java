@@ -1,8 +1,6 @@
-package Practice.Baekjoon.Sliver.S4_1024;
+package Practice.Baekjoon.Sliver.S2_1024;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
 
