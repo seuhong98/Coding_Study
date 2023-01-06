@@ -60,8 +60,12 @@ public class Main {
         if(data.getLen() ==0){
             return false;
         }else {
-            data.setScore(Arrays.stream(br.readLine().split(" ")).map(s -> Integer.parseInt(s)).toArray(Integer[] :: new));
-            data.sort();
+            Integer[] read = new Integer[data.getLen()];
+            String[] temp2 = br.readLine().split(" ");
+            for(int i=0;i<read.length;i++){
+                read[i] = Integer.parseInt(temp2[i]);
+            }
+            data.setScore(read);
             return true;
         }
 
@@ -116,7 +120,7 @@ public class Main {
         }
 
         public Boolean isSame(int i){
-            return score[i]==goal;
+            return score[i].equals(goal);
         }
     }
 }
